@@ -37,7 +37,25 @@ public class Main {
                 }
                 System.out.println();
             }
-            System.out.println("Input Ctrl D to quit or,");
+
+            System.out.println("\n");
+            System.out.println("Pyramid Gen");
+            // For Method Pyramid generator
+            for (int counter3 = number; counter3 > 0; counter3--) {
+
+                for (int numberOfSpaces3 = counter3; numberOfSpaces3 > 0; numberOfSpaces3--) {
+                    System.out.print(" ");
+                }
+                for (int star3 = (number - counter3); star3 > -1; star3--) {
+                    System.out.print("*");
+                }
+                for (int star3 = (number - counter3); star3 > 0; star3--) {
+                    System.out.print("*");
+                }
+                System.out.println();
+            }
+
+            System.out.println("\nInput Ctrl D to quit or,");
             System.out.print("Input number of * rows: ");
         }
     }
