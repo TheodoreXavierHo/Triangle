@@ -55,8 +55,23 @@ public class Main {
                 System.out.println();
             }
 
+            /*
+            System.out.println("Fibonacci Series till " + number + " terms:");
+            for (int counter4 = number; counter4 > 0; counter4--) {
+                int n = counter4, firstTerm = 0, secondTerm = 1;
+                for (int i = 1; i <= n; ++i) {
+                    System.out.print(firstTerm + " ");
+
+                    // compute the next term
+                    int nextTerm = firstTerm + secondTerm;
+                    firstTerm = secondTerm;
+                    secondTerm = nextTerm;
+                }
+                System.out.println();
+            }
             System.out.println("\nInput Ctrl D to quit or,");
             System.out.print("Input number of * rows: ");
+        */
         }
     }
 }
